@@ -1,23 +1,44 @@
-# Traffic Violation Ticketing System
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project was developed as the semester long project for CSE327: Software Engineering Course at North South University. 
+## Available Scripts
 
-This project basically aims to speed up the ticketing process for Traffic Sergeants by using their mobile phones and issue tickets by taking a couple of photos. 
+In the project directory, you can run:
 
-# Features
-The project consists of the following features:
+### `npm start`
 
-- 3 different types of Users: Police, Administrator, Regular User(Driver).
-- The Police is responsible for issuing tickets to traffic violating car drivers. They can also view past issued tickets.
-- The Administrator is responsible for resolving the tickets after the driver pays the fine. They can see all the data in the system except for credentials.
-- The Driver will only be able to receive tickets and check their previously received tickets.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# Files
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-Under the **project** directory you will find three different sub-folders. 
-- The **client** directory refers to the front-end of the application which has been developed using React and Redux. All the applicable design patterns were followed during development.
-- The **server** directory is designated for the REST API server codes. This was developed using the Express Framework built on top of Node.js library. We primarily used MVC pattern to develop this system.
-- The Unit Test codes can be found under the **test** directory which is inside the **server** directory. The unit test codes were written using the javascript library called Mocha and used assertion functions from the library called Chai.
-- For **Data Management** on the server side we used an **Object Relational Mapping** library for performing encapsulated Database Queries and Model Definitions.
-- The **mobile** directory is designated for the mobile version of the project. The mobile version is only developed for the traffic police so, they are only able to take photos and issue tickets.
-- **MySQL** was used as primary database engine for the project.
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
